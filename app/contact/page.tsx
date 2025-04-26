@@ -1,7 +1,7 @@
 export default function Contact() {
     return (
       <main className="min-h-screen bg-white px-4 py-16 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold text-blue-800 mb-6">
+        <h1 className="text-4xl md:text-6xl font-bold text-orange-600 mb-6">
           Contact Us
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
@@ -48,7 +48,7 @@ export default function Contact() {
   
             <button
               type="submit"
-              className="bg-blue-800 text-white px-6 py-3 rounded-md text-lg hover:bg-blue-900 transition duration-200"
+              className="bg-orange-600 text-white px-6 py-3 rounded-md text-lg hover:bg-blue-900 transition duration-200"
             >
               Send Message
             </button>

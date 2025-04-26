@@ -1,7 +1,7 @@
 export default function Initiatives() {
     return (
       <main className="min-h-screen bg-white px-4 py-16 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold text-blue-800 mb-6">
+        <h1 className="text-4xl md:text-6xl font-bold text-orange-600 mb-6">
           Our Initiatives
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
@@ -10,7 +10,7 @@ export default function Initiatives() {
   
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold text-blue-800 mb-4">
+            <h2 className="text-xl font-semibold text-orange-600 mb-4">
               Entrepreneurship Development Cell (EDC)
             </h2>
             <p className="text-lg text-gray-600">
@@ -19,7 +19,7 @@ export default function Initiatives() {
           </div>
   
           <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold text-blue-800 mb-4">
+            <h2 className="text-xl font-semibold text-orange-600 mb-4">
               Innovation and Entrepreneurship Development Cell (IEDC)
             </h2>
             <p className="text-lg text-gray-600">
@@ -28,7 +28,7 @@ export default function Initiatives() {
           </div>
   
           <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold text-blue-800 mb-4">
+            <h2 className="text-xl font-semibold text-orange-600 mb-4">
               Cisco thingQbator – IoT Makerspace
             </h2>
             <p className="text-lg text-gray-600">
