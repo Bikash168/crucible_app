@@ -1,6 +1,5 @@
 "use client";  // Add this at the very top of your file
 
-import { useState } from "react";
 import Image from "next/image";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Importing Carousel styles
@@ -48,8 +47,6 @@ export default function Home() {
         </div>
       </Carousel>
 
-
-
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
         {/* Main Heading Card */}
         <div className="bg-white shadow-lg rounded-2xl p-6 text-center">
@@ -71,14 +68,12 @@ export default function Home() {
               height={300}
               className="rounded-xl w-full h-auto"
             />
-
           </div>
           <h2 className="text-2xl font-semibold text-orange-500 mb-4 text-center">Vision</h2>
           <p className="text-lg text-gray-700 text-center">
             We aim to build a space where new ideas are encouraged, innovation is supported at every step, and students are motivated to turn their thoughts into real solutions.
           </p>
         </div>
-
 
         {/* Mission Card */}
         <div className="bg-white shadow-lg rounded-2xl p-6 md:col-span-2">
@@ -99,7 +94,6 @@ export default function Home() {
           </p>
         </div>
       </div>
-
     </main>
   );
-} 
+}
