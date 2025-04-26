@@ -8,10 +8,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo + Text */}
           <div className="flex items-center space-x-2">
-            <div className="w-50 h-auto">
-              <Image src="/logo.png" alt="Crucible Logo" layout="responsive" width={160} height={80} />
-            </div>
-            
+            <Link href="/">
+              <div className="w-50 h-auto">
+                <Image src="/logo.png" alt="Crucible Logo" layout="responsive" width={160} height={80} />
+              </div>
+            </Link>
           </div>
 
           {/* Navigation Links */}

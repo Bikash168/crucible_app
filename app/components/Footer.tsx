@@ -1,16 +1,29 @@
 import Link from "next/link";
+import Image from "next/image";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="bg-white py-12 mt-12 w-full">
       <div className="w-full px-6">
+
+
+        {/* Card Section */}
         <div className="bg-white shadow-xl rounded-2xl p-8 w-full">
           {/* Grid Section */}
           <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
             {/* About Crucible */}
+
             <div>
-              <h3 className="font-semibold text-lg text-orange-600 mb-3">About Crucible</h3>
+              {/* Logo Section */}
+              <div className="flex  space-x-2 mb-8 ">
+                <Link href="/">
+                  <div className="w-50 h-auto">
+                    <Image src="/logo.png" alt="Crucible Logo" layout="responsive" width={160} height={80} />
+                  </div>
+                </Link>
+              </div>
+
               <p className="text-sm text-gray-700">
                 Crucible Innovation Forum is the official innovation and incubation centre of Trident Academy of Technology.
                 We foster entrepreneurial spirit and guide students in turning innovative ideas into impactful ventures.
