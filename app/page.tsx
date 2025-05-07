@@ -48,22 +48,23 @@ export default function Home() {
       <div className="space-y-12 px-4 sm:px-12 py-12 bg-gray-50">
 
         {/* Main Heading Card */}
-        <div className="bg-white shadow-xl rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8">
-          <div className="flex-1 text-center md:text-left">
-            <h2 className="text-3xl font-bold text-orange-500 mb-4">
-              Crucible Innovation Forum: A Recognized Incubator
-            </h2>
-            <p className="text-lg text-gray-700 text-justify mb-4">
-            Established in 2023, Crucible Innovation Forum stands as a beacon of innovation and entrepreneurship at the heart of the Trident Group of Institutions. As the official incubation center, we embrace a holistic and inclusive approach to nurturing startups—empowering aspiring innovators with the guidance, mentorship, and infrastructure needed to transform bold ideas into sustainable ventures.
-            </p>
-            <p className="text-lg text-gray-700 text-justify mb-4">
-            Through strategic partnerships with academic institutions, industry leaders, government agencies, and development organizations, we extend our reach far beyond the campus, positively impacting communities and ecosystems across Eastern India.
-            </p>
-            <p className="text-lg text-gray-700 text-justify mb-4">
-            At Crucible, we don’t just support startups—we cultivate changemakers, strengthen local economies, and inspire future-ready enterprises. From ideation to execution, our comprehensive support ecosystem ensures that innovation leads to action, and action leads to meaningful, long-lasting impact.
-            </p>
-          </div>
-        </div>
+        <div className="bg-white shadow-xl rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 transition-transform transform hover:scale-105 hover:shadow-2xl">
+  <div className="flex-1 text-center md:text-left">
+    <h2 className="text-3xl font-bold text-orange-500 mb-4 transition-all duration-300 hover:text-orange-600">
+      Crucible Innovation Forum: A Recognized Incubator
+    </h2>
+    <p className="text-lg text-gray-700 text-justify mb-4 transition-all duration-300 hover:text-gray-800">
+      Established in 2023, Crucible Innovation Forum stands as a beacon of innovation and entrepreneurship at the heart of the Trident Group of Institutions. As the official incubation center, we embrace a holistic and inclusive approach to nurturing startups—empowering aspiring innovators with the guidance, mentorship, and infrastructure needed to transform bold ideas into sustainable ventures.
+    </p>
+    <p className="text-lg text-gray-700 text-justify mb-4 transition-all duration-300 hover:text-gray-800">
+      Through strategic partnerships with academic institutions, industry leaders, government agencies, and development organizations, we extend our reach far beyond the campus, positively impacting communities and ecosystems across Eastern India.
+    </p>
+    <p className="text-lg text-gray-700 text-justify mb-4 transition-all duration-300 hover:text-gray-800">
+      At Crucible, we don’t just support startups—we cultivate changemakers, strengthen local economies, and inspire future-ready enterprises. From ideation to execution, our comprehensive support ecosystem ensures that innovation leads to action, and action leads to meaningful, long-lasting impact.
+    </p>
+  </div>
+</div>
+
 
         {/* Vision + Mission Cards (Side-by-Side) */}
         {[{
