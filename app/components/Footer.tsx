@@ -19,7 +19,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-sm text-gray-600 leading-relaxed max-w-md">
-              Crucible Innovation Forum is the official innovation and incubation centre of Trident Academy of Technology. We foster entrepreneurial spirit and guide students in turning innovative ideas into impactful ventures.
+              Crucible Innovation Forum is the official innovation and incubation centre of Trident Group of Institutions. We foster entrepreneurial spirit and guide students in turning innovative ideas into impactful ventures.
             </p>
           </div>
 
