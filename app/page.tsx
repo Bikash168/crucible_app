@@ -6,46 +6,47 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // Importing Car
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-black px-4">
-      <Carousel
-        className="mb-8"
-        autoPlay
-        interval={3000}
-        infiniteLoop
-        showThumbs={false}
-        showStatus={false}
-        showArrows={false}
-        swipeable
-        emulateTouch
-      >
-        <div>
-          <Image
-            src="/images/innovation1.jpg"
-            alt="Innovation 1"
-            width={1920}
-            height={1080}
-            className="w-full h-[180px] sm:h-[240px] md:h-[300px] lg:h-[400px] xl:h-[500px] object-cover transition-all duration-700 ease-in-out"
-          />
-        </div>
-        <div>
-          <Image
-            src="/images/innovation2.jpg"
-            alt="Innovation 2"
-            width={1920}
-            height={1080}
-            className="w-full h-[180px] sm:h-[240px] md:h-[300px] lg:h-[400px] xl:h-[500px] object-cover transition-all duration-700 ease-in-out"
-          />
-        </div>
-        <div>
-          <Image
-            src="/images/innovation3.jpg"
-            alt="Innovation 3"
-            width={1920}
-            height={1080}
-            className="w-full h-[180px] sm:h-[240px] md:h-[300px] lg:h-[400px] xl:h-[500px] object-cover transition-all duration-700 ease-in-out"
-          />
-        </div>
-      </Carousel>
+    <main className="min-h-screen bg-gray-100 text-black px-4">
+    <Carousel
+  className="mb-8"
+  autoPlay
+  interval={3000}
+  infiniteLoop
+  showThumbs={false}
+  showStatus={false}
+  showArrows={false}
+  swipeable
+  emulateTouch
+>
+  <div>
+    <Image
+      src="/images/innovation1.jpg"
+      alt="Innovation 1"
+      width={1920}
+      height={1080}
+      className="w-full h-[30vh] sm:h-[40vh] md:h-[50vh] lg:h-[60vh] xl:h-[70vh] object-cover transition-all duration-700 ease-in-out"
+    />
+  </div>
+  <div>
+    <Image
+      src="/images/innovation2.jpg"
+      alt="Innovation 2"
+      width={1920}
+      height={1080}
+      className="w-full h-[30vh] sm:h-[40vh] md:h-[50vh] lg:h-[60vh] xl:h-[70vh] object-cover transition-all duration-700 ease-in-out"
+    />
+  </div>
+  <div>
+    <Image
+      src="/images/innovation3.jpg"
+      alt="Innovation 3"
+      width={1920}
+      height={1080}
+      className="w-full h-[30vh] sm:h-[40vh] md:h-[50vh] lg:h-[60vh] xl:h-[70vh] object-cover transition-all duration-700 ease-in-out"
+    />
+  </div>
+</Carousel>
+
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
         {/* Main Heading Card */}
