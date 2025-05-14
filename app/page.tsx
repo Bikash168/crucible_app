@@ -166,36 +166,42 @@ export default function Home() {
         </div>
 
         {/* Focus Areas */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-          {[
-            {
-              icon: "🚀",
-              title: "Startup Acceleration",
-              desc: "Scale your product with expert guidance, funding & market access.",
-            },
-            {
-              icon: "💡",
-              title: "Pre-Incubation Support",
-              desc: "From idea validation to prototype assistance and testing.",
-            },
-            {
-              icon: "🌱",
-              title: "Social Innovation",
-              desc: "Impact-driven ideas that solve real-world community challenges.",
-            },
-          ].map(({ icon, title, desc }, i) => (
-            <div
-              key={i}
-              className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition"
-            >
-              <div className="text-5xl mb-4">{icon}</div>
-              <h4 className="text-xl font-semibold text-orange-600 mb-2">
-                {title}
-              </h4>
-              <p className="text-gray-700">{desc}</p>
-            </div>
-          ))}
+        <div className="bg-white p-10 rounded-2xl shadow-xl">
+          <h3 className="text-3xl font-semibold text-orange-500 text-center mb-10">
+            FOCUS AREAS
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            {[
+              {
+                icon: "🚀",
+                title: "Startup Acceleration",
+                desc: "Scale your product with expert guidance, funding & market access.",
+              },
+              {
+                icon: "💡",
+                title: "Pre-Incubation Support",
+                desc: "From idea validation to prototype assistance and testing.",
+              },
+              {
+                icon: "🌱",
+                title: "Social Innovation",
+                desc: "Impact-driven ideas that solve real-world community challenges.",
+              },
+            ].map(({ icon, title, desc }, i) => (
+              <div
+                key={i}
+                className="bg-orange-50 p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300"
+              >
+                <div className="text-5xl mb-4">{icon}</div>
+                <h4 className="text-xl font-semibold text-orange-600 mb-2">
+                  {title}
+                </h4>
+                <p className="text-gray-700">{desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
+
 
         <StartupSpotlight />
 
