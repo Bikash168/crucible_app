@@ -6,7 +6,7 @@ const sectors = [
     { icon: '/icons/ai.svg', name: 'AI' },
     { icon: '/icons/climate-tech.svg', name: 'Climate Tech' },
     { icon: '/icons/clean-tech.svg', name: 'Clean Tech' },
-    { icon: '/icons/edutech.svg', name: 'Edutech' },
+    { icon: '/icons/Environment_Sustainability.svg', name: 'Environment Sustainability' },
     { icon: '/icons/agritech.svg', name: 'Agri Tech' },
     { icon: '/icons/edutech.svg', name: 'Edutech' },
     { icon: '/icons/social-innovation.svg', name: 'Social Innovation' },
