@@ -63,7 +63,7 @@ export default function Initiatives() {
       {/* Call to Action */}
       <div className="mt-12">
         <a
-          href="#"
+          href="/contact"
           className="bg-orange-600 text-white py-3 px-8 rounded-lg text-lg font-semibold transition-transform transform hover:scale-105 hover:bg-orange-700 duration-300 ease-in-out"
         >
           Join Our Initiatives
