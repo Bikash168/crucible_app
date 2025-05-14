@@ -7,6 +7,7 @@ import SectorAgnostic from "@/components/SectorAgnostic";
 import StartupSpotlight from "@/components/StartupSpotlight";
 import Link from "next/link";
 import { useEffect } from "react";
+import CountUp from 'react-countup';
 
 export default function Home() {
   return (
@@ -149,21 +150,20 @@ export default function Home() {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { label: "Startups Incubated", value: "50+" },
-              { label: "Mentors & Experts", value: "30+" },
-              { label: "Funding Raised", value: "₹2 Cr+" },
-              { label: "Patents Filed", value: "12" },
+              { label: "Startups Incubated", value: 50 },
+              { label: "Mentors & Experts", value: 30 },
+              { label: "Job Created", value: 100 },
+              { label: "Patents Filed", value: 12 },
             ].map(({ label, value }, i) => (
               <div key={i}>
                 <div className="text-4xl font-bold text-orange-500 mb-2">
-                  {value}
+                  <CountUp end={value} duration={2} suffix="+" />
                 </div>
                 <div className="text-gray-600 text-lg">{label}</div>
               </div>
             ))}
           </div>
         </div>
-
 
         {/* Focus Areas */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
