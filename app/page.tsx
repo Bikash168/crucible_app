@@ -51,13 +51,15 @@ export default function Home() {
         <h1 className="text-4xl sm:text-5xl font-extrabold text-orange-500 mb-6 leading-tight">
           Empowering Startups & Innovators of Tomorrow
         </h1>
-        <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto mb-8">
+        <p className="text-lg sm:text-xl text-gray-700 text-justify max-w-3xl mx-auto mb-8">
           A catalyst for transforming bold ideas into scalable solutions through
           support, mentorship, funding, and infrastructure.
         </p>
-        <button className="bg-orange-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-orange-600 transition shadow-md hover:shadow-lg">
-          Explore Programs
-        </button>
+        <Link href="/initiatives">
+          <button className="bg-orange-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-orange-600 transition shadow-md hover:shadow-lg">
+            Explore Programs
+          </button>
+        </Link>
       </section>
 
       <section className="space-y-16 px-4 sm:px-12 py-16 bg-gray-50">
@@ -160,6 +162,29 @@ export default function Home() {
                   <CountUp end={value} duration={2} suffix="+" />
                 </div>
                 <div className="text-gray-600 text-lg">{label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="bg-white shadow-xl rounded-2xl p-10 text-center mt-16">
+          <h3 className="text-3xl font-semibold text-orange-500 mb-8">
+            OUR PARTNERS
+          </h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center">
+            {[
+              "/partners/partner1.png",
+              "/partners/partner2.png",
+              "/partners/partner3.png",
+              "/partners/partner4.jpg",
+            ].map((logo, i) => (
+              <div key={i} className="flex justify-center">
+                <img
+                  src={logo}
+                  alt={`Partner ${i + 1}`}
+                  className={`${i === 2 ? "h-40" : "h-28"
+                    } w-auto object-contain transition`}
+                />
               </div>
             ))}
           </div>
