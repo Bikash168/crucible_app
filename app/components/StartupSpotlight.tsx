@@ -2,40 +2,58 @@
 
 const startups = [
     {
-      name: 'Lorem ipsum',
+      name: 'SHOVANA CHARITY FOUNDATION',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      logo: '/logos/BIAI.png',
+      logo: '/logos/Shovona _chairity_Foundation.png',
     },
     {
-      name: 'Lorem ipsum',
+      name: 'PRANAMI CHARITY FOUNDATION',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      logo: '/logos/Crucibel_Fintech.png',
+      logo: '/logos/Pranami_Chairity_Foundation.png',
     },
     {
-      name: 'Lorem ipsum',
+      name: 'WWS ENERGY',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      logo: '/logos/Decarb.png',
+      logo: '/logos/WWS_Energy.png',
     },
     {
-      name: 'Lorem ipsum',
+      name: 'QUICKR MATHCODES',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      logo: '/logos/EVOLVE_.png',
+      logo: '/logos/Quicker_Math_coders.png',
     },
     {
-      name: 'Lorem ipsum',
+      name: 'GENY JOBDESK',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       logo: '/logos/GENY_Jobdek.png',
     },
     {
-      name: 'Lorem ipsum',
+      name: 'EVOLVE CODELINK',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      logo: '/logos/PHAYUR.png',
+      logo: '/logos/EVOLVE_.png',
+    },
+    {
+      name: 'CRUCIBLE FINTECH',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      logo: '/logos/Crucibel_Fintech.png',
+    },
+    {
+      name: 'DECARB CLIMATE RESEARCH',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      logo: '/logos/Decarb.png',
+    },
+    {
+      name: 'SKILLEM SERVICES',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      logo: '/logos/Skillem.png',
     },
   ];
   
@@ -45,7 +63,7 @@ const startups = [
         <h2 className="text-3xl font-bold text-orange-600 mb-10 text-center">
           STARTUP <span className="text-orange-600">SPOTLIGHT</span>
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {startups.map((startup, index) => (
             <div key={index} className="flex items-start gap-4">
               <img
