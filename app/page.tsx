@@ -89,7 +89,7 @@ export default function Home() {
 
         {/* Vision & Mission */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {[
+          {[ 
             {
               title: "Vision",
               image: "/images/vision.jpg",
@@ -144,14 +144,13 @@ export default function Home() {
 
         <SectorAgnostic />
 
-
         {/* Stats */}
         <div className="bg-white shadow-xl rounded-2xl p-10 text-center">
           <h3 className="text-3xl font-semibold text-orange-500 mb-8">
             OUR IMPACT
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {[
+            {[ 
               { label: "Startups Incubated", value: 50 },
               { label: "Mentors & Experts", value: 30 },
               { label: "Job Created", value: 100 },
@@ -172,7 +171,7 @@ export default function Home() {
             OUR PARTNERS
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center">
-            {[
+            {[ 
               "/partners/partner1.png",
               "/partners/partner2.png",
               "/partners/partner3.png",
@@ -196,7 +195,7 @@ export default function Home() {
             FOCUS AREAS
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            {[
+            {[ 
               {
                 icon: "🚀",
                 title: "Startup Acceleration",
@@ -226,7 +225,6 @@ export default function Home() {
             ))}
           </div>
         </div>
-
 
         <StartupSpotlight />
 
