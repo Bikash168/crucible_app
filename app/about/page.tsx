@@ -33,7 +33,7 @@ export default function About() {
         {/* Introduction */}
         <section className="max-w-4xl mx-auto text-gray-700">
           <p className="text-lg md:text-xl mb-8">
-            <span className="font-semibold text-orange-600">Crucible Innovation Forum</span> is the official innovation and incubation centre of <strong>Trident Academy of Technology, Bhubaneswar</strong>. Established in 2023, it acts as a launchpad for creative minds to turn ideas into impactful ventures with mentorship, resources, and infrastructure.
+            <span className="font-semibold text-orange-600">Crucible Innovation Forum</span> is the official innovation and incubation centre of <strong>Trident Group of Institutions, Bhubaneswar</strong>. Established in 2023, it acts as a launchpad for creative minds to turn ideas into impactful ventures with mentorship, resources, and infrastructure.
           </p>
 
           {/* Key Initiatives */}
@@ -50,15 +50,16 @@ export default function About() {
           
           {/* Image */}
           <div className="my-12 px-4">
-            <div className="max-w-xl mx-auto overflow-hidden rounded-lg shadow-lg">
-              <Image
-                src="/images/CrucibleNew.png" // replace with your actual static file name
-                alt="Test Crucible Image"
-                width={800}
-                height={400}
-                className="object-cover"
-              />
-            </div>
+          <div className="max-w-xl mx-auto overflow-hidden rounded-lg shadow-lg border-4 border-orange-500 hover:scale-105 transition-all duration-300 ease-in-out">
+  <Image
+    src="/images/CrucibleNew.png" // replace with your actual static file name
+    alt="Test Crucible Image"
+    width={800}
+    height={400}
+    className="object-cover"
+  />
+</div>
+
           </div>
 
           {/* Mission */}
