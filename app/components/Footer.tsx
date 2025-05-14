@@ -4,9 +4,9 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-black  py-12 w-full">
+    <footer className="bg-white text-black py-12 w-full">
       <div className="max-w-7xl mx-auto px-6 md:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           
           {/* Left Section - About */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
@@ -32,6 +32,18 @@ export default function Footer() {
               <li><Link href="/incubation" className="hover:text-blue-600 transition">Incubation</Link></li>
               <li><Link href="/contact" className="hover:text-blue-600 transition">Contact</Link></li>
             </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
+            <h3 className="font-semibold text-lg mb-4">Contact Info</h3>
+            <p className="text-sm text-gray-600 leading-relaxed">
+              Crucible Innovation Forum<br />
+              Trident Group of Institutions<br />
+              Bhubaneswar, Odisha - 751024<br />
+              Phone: <a href="tel:+919999999999" className="text-blue-600 hover:underline">+91 99999 99999</a><br />
+              Email: <a href="mailto:info@crucible.org" className="text-blue-600 hover:underline">info@crucible.org</a>
+            </p>
           </div>
 
           {/* Right Section - Social Media */}
