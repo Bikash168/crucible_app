@@ -8,7 +8,7 @@ export default function About() {
       <main className="min-h-screen bg-white px-4 py-12 sm:px-6 lg:px-16 text-center">
         {/* Hero Section */}
         <div className="relative w-full h-[300px] md:h-[400px] mb-12 rounded-xl overflow-hidden shadow-xl group">
-        <div className="absolute inset-0 bg-gradient-to-b from-red-500 to-orange-500 bg-opacity-60 flex items-center justify-center">
+          <div className="absolute inset-0 bg-gradient-to-b from-red-500 to-orange-500 bg-opacity-60 flex items-center justify-center">
             <h1 className="text-white text-3xl md:text-5xl font-bold drop-shadow-lg animate-fadeIn">
               About Crucible Innovation Forum
             </h1>
@@ -47,18 +47,18 @@ export default function About() {
             <li>Startup Bootcamps and Hackathons</li>
             <li>Workshops on emerging technologies (AI, IoT, Blockchain, etc.)</li>
           </ul>
-          
+
           {/* Image */}
           <div className="my-12 px-4">
-          <div className="max-w-xl mx-auto overflow-hidden rounded-lg shadow-lg border-4 border-orange-500 hover:scale-105 transition-all duration-300 ease-in-out">
-  <Image
-    src="/images/CrucibleNew.png" // replace with your actual static file name
-    alt="Test Crucible Image"
-    width={800}
-    height={400}
-    className="object-cover"
-  />
-</div>
+            <div className="max-w-xl mx-auto overflow-hidden rounded-lg shadow-lg border-4 border-orange-500 hover:scale-105 transition-all duration-300 ease-in-out">
+              <Image
+                src="/images/CrucibleNew.png" // replace with your actual static file name
+                alt="Test Crucible Image"
+                width={800}
+                height={400}
+                className="object-cover"
+              />
+            </div>
 
           </div>
 
