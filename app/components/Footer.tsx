@@ -4,10 +4,11 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-gray-800 to-black text-white font-semibold py-16 w-full">
+    <footer className="bg-gradient-to-b from-gray-800 to-black text-white py-16 w-full font-footer">
+
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-          
+
           {/* Left Section - About */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <Link href="/" className="mb-6 w-40">
@@ -40,14 +41,12 @@ export default function Footer() {
             <h3 className="font-semibold text-xl mb-4 text-orange-500">Contact Info</h3>
             <p className="text-sm text-gray-300 leading-relaxed">
               Crucible Innovation Forum<br />
-              <p>
               F-2, Chandaka Industrial Estate, <br />
               In front of Infocity, Chandrasekharpur, <br />
               Bhubaneswar, Odisha - 751024
             </p>
-              Phone: <a href="tel:+919439173220" className="text-blue-500 hover:underline">+91 99999 99999</a><br />
-              Email: <a href="mailto:info@crucible.org" className="text-blue-500 hover:underline">info@crucible.org</a>
-            </p>
+            Phone: <a href="tel:+919439173220" className="text-blue-500 hover:underline">+91 99999 99999</a><br />
+            Email: <a href="mailto:info@crucible.org" className="text-blue-500 hover:underline">info@crucible.org</a>
           </div>
 
           {/* Right Section - Social Media */}
