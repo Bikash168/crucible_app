@@ -2,16 +2,16 @@
 
 const startups = [
     {
-      name: 'SHOVANA CHARITY FOUNDATION',
+      name: 'BIAI',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      logo: '/logos/Shovona _chairity_Foundation.png',
+      logo: '/logos/BIAI.png',
     },
     {
-      name: 'PRANAMI CHARITY FOUNDATION',
+      name: 'PHAYUR',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      logo: '/logos/Pranami_Chairity_Foundation.png',
+      logo: '/logos/PHAYUR.png',
     },
     {
       name: 'WWS ENERGY',
