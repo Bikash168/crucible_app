@@ -45,7 +45,7 @@ export default function Footer() {
               In front of Infocity, Chandrasekharpur, <br />
               Bhubaneswar, Odisha - 751024
             </p>
-            Phone: <a href="tel:+919439173220" className="text-blue-500 hover:underline">+91 99999 99999</a><br />
+            Phone: <a href="tel:+919439173220" className="text-blue-500 hover:underline">+91 9439173220</a><br />
             Email: <a href="mailto:info@crucible.org" className="text-blue-500 hover:underline">info@crucible.org</a>
           </div>
 
