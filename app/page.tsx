@@ -26,7 +26,7 @@ export default function Home() {
   renderIndicator={(onClickHandler, isSelected, index) => (
     <button
       className={`${
-        isSelected ? "bg-orange-500" : "bg-gray-300"
+        isSelected ? "bg-blue-900" : "bg-gray-300"
       } w-3 h-3 rounded-full mx-1`}
       onClick={onClickHandler}
       aria-label={`Slide ${index + 1}`}
