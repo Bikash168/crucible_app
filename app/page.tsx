@@ -14,37 +14,41 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-white to-gray-100 text-black">
       {/* Hero Carousel */}
       <Carousel
-        autoPlay
-        interval={4000}
-        infiniteLoop
-        showThumbs={false}
-        showStatus={false}
-        showArrows={false}
-        swipeable
-        emulateTouch
-        className="w-full h-full"
-        renderIndicator={(onClickHandler, isSelected, index) => (
-          <button
-            className={`${isSelected ? "bg-orange-500" : "bg-gray-300"
-              } w-3 h-3 rounded-full mx-1`}
-            onClick={onClickHandler}
-          ></button>
-        )}
-      >
-        {["innovation1.jpg", "innovation2.jpg", "innovation3.jpg"].map(
-          (img, i) => (
-            <div key={i} className="relative w-full" style={{ height: "85vh" }}>
-              <Image
-                src={`/images/${img}`}
-                alt={`Slide ${i + 1}`}
-                fill
-                className="object-cover"
-                priority={i === 0}
-              />
-            </div>
-          )
-        )}
-      </Carousel>
+  autoPlay
+  interval={4000}
+  infiniteLoop
+  showThumbs={false}
+  showStatus={false}
+  showArrows={false}
+  swipeable
+  emulateTouch
+  className="w-full h-full"
+  renderIndicator={(onClickHandler, isSelected, index) => (
+    <button
+      className={`${
+        isSelected ? "bg-orange-500" : "bg-gray-300"
+      } w-3 h-3 rounded-full mx-1`}
+      onClick={onClickHandler}
+      aria-label={`Slide ${index + 1}`}
+    ></button>
+  )}
+>
+  {["innovation1.jpg", "innovation2.jpg", "innovation3.jpg"].map((img, i) => (
+    <div
+      key={i}
+      className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[85vh]"
+    >
+      <Image
+        src={`/images/${img}`}
+        alt={`Slide ${i + 1}`}
+        fill
+        className="object-cover"
+        priority={i === 0}
+      />
+    </div>
+  ))}
+</Carousel>
+
 
       {/* Hero Callout */}
       <section className="text-center py-16 px-4 sm:px-12 bg-white">
