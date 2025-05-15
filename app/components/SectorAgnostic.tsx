@@ -16,8 +16,8 @@ const sectors = [
   export default function SectorAgnostic() {
     return (
       <section className="py-16 bg-white text-center">
-        <h2 className="text-3xl font-bold text-orange-600">
-          SECTOR <span className="text-orange-600">AGNOSTIC</span>
+        <h2 className="text-3xl font-bold text-blue-800">
+          SECTOR <span className="text-blue-800">AGNOSTIC</span>
         </h2>
         <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 px-6">
           {sectors.map((sector, index) => (

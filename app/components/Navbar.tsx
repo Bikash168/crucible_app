@@ -9,7 +9,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="bg-white text-orange-600 shadow-md border-b border-gray-300 sticky top-0 z-50">
+    <div className="bg-white text-blue-900 shadow-md border-b border-gray-300 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo + Text */}

@@ -60,8 +60,8 @@ const startups = [
   export default function StartupSpotlight() {
     return (
       <section className="py-16 bg-white text-gray-800 px-6">
-        <h2 className="text-3xl font-bold text-orange-600 mb-10 text-center">
-          STARTUP <span className="text-orange-600">SPOTLIGHT</span>
+        <h2 className="text-3xl font-bold text-blue-800 mb-10 text-center">
+          STARTUP <span className="text-blue-800">SPOTLIGHT</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {startups.map((startup, index) => (
