@@ -93,9 +93,9 @@ export default function Contact() {
             height="100%"
             frameBorder="0"
             style={{ border: 0 }}
-            allowFullScreen=""
+            allowFullScreen
             aria-hidden="false"
-            tabIndex="0"
+            tabIndex={0}
           ></iframe>
         </div>
       </div>
