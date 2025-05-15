@@ -72,9 +72,11 @@ export default function Contact() {
         <div className="flex justify-center space-x-16 text-white text-lg mb-8">
           <div className="text-center">
             <p className="font-semibold">Address</p>
-            <p>F-2, Chandaka Industrial Estate, <br />
+            <p>
+              F-2, Chandaka Industrial Estate, <br />
               In front of Infocity, Chandrasekharpur, <br />
-              Bhubaneswar, Odisha - 751024</p>
+              Bhubaneswar, Odisha - 751024
+            </p>
           </div>
           <div className="text-center">
             <p className="font-semibold">Phone</p>

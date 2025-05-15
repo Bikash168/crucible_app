@@ -40,9 +40,12 @@ export default function Footer() {
             <h3 className="font-semibold text-xl mb-4 text-orange-500">Contact Info</h3>
             <p className="text-sm text-gray-300 leading-relaxed">
               Crucible Innovation Forum<br />
-              Trident Group of Institutions<br />
-              Bhubaneswar, Odisha - 751024<br />
-              Phone: <a href="tel:+919999999999" className="text-blue-500 hover:underline">+91 99999 99999</a><br />
+              <p>
+              F-2, Chandaka Industrial Estate, <br />
+              In front of Infocity, Chandrasekharpur, <br />
+              Bhubaneswar, Odisha - 751024
+            </p>
+              Phone: <a href="tel:+919439173220" className="text-blue-500 hover:underline">+91 99999 99999</a><br />
               Email: <a href="mailto:info@crucible.org" className="text-blue-500 hover:underline">info@crucible.org</a>
             </p>
           </div>
