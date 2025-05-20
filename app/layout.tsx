@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Crucible",
-  description: "Crucible Innovation Forum – Trident Group",
+  description: "Crucible Innovation Forum",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
