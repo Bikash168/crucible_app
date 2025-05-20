@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <main className="min-h-screen bg-gradient-to-r from-red-500 via-orange-400 to-yellow-300 px-4 py-16 text-center">
+    <main className="min-h-screen bg-gradient-to-r from-blue-900 via-blue-800 to-white px-4 py-16 text-center">
       <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
         Contact Us
       </h1>
@@ -56,7 +56,7 @@ export default function Contact() {
           {/* Submit Button */}
           <button
             type="submit"
-            className="bg-orange-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-blue-900 transition duration-300 transform hover:scale-105"
+            className="bg-blue-800 text-white px-8 py-3 rounded-md text-lg font-semibold transition duration-300 transformbg-blue-800 text-white px-8 py-3 rounded-md text-lg font-semibold"
           >
             Send Message
           </button>
