@@ -184,8 +184,7 @@ export default function Home() {
                 <img
                   src={logo}
                   alt={`Partner ${i + 1}`}
-                  className={`${i === 2 ? "h-40" : "h-28"
-                    } w-auto object-contain transition`}
+                  className={`${i === 2 ? "h-28" : "h-20"} w-auto object-contain transition`}
                 />
               </div>
             ))}
