@@ -1,6 +1,6 @@
 export default function Initiatives() {
   return (
-    <main className="min-h-screen bg-gradient-to-r from-red-500 via-orange-400 to-yellow-300 px-4 py-16 text-center">
+    <main className="min-h-screen bg-gradient-to-r from-white via-blue-900 to-blue-800 px-4 py-16 text-center">
       <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
         Our Initiatives
       </h1>
@@ -11,7 +11,7 @@ export default function Initiatives() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* EDC Card */}
         <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
-          <h2 className="text-2xl font-semibold text-orange-600 mb-4">
+          <h2 className="text-2xl font-semibold text-blue-800 mb-4">
             Entrepreneurship Development Cell (EDC)
           </h2>
           <p className="text-lg text-gray-600">
@@ -21,7 +21,7 @@ export default function Initiatives() {
 
         {/* IEDC Card */}
         <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
-          <h2 className="text-2xl font-semibold text-orange-600 mb-4">
+          <h2 className="text-2xl font-semibold text-blue-800 mb-4">
             Innovation and Entrepreneurship Development Cell (IEDC)
           </h2>
           <p className="text-lg text-gray-600">
@@ -31,7 +31,7 @@ export default function Initiatives() {
 
         {/* IoT Makerspace Card */}
         <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
-          <h2 className="text-2xl font-semibold text-orange-600 mb-4">
+          <h2 className="text-2xl font-semibold text-blue-800 mb-4">
             Cisco thingQbator – IoT Makerspace
           </h2>
           <p className="text-lg text-gray-600">
@@ -41,7 +41,7 @@ export default function Initiatives() {
 
         {/* Additional Initiatives */}
         <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
-          <h2 className="text-2xl font-semibold text-orange-600 mb-4">
+          <h2 className="text-2xl font-semibold text-blue-800 mb-4">
             Sustainable Innovation and Green Tech
           </h2>
           <p className="text-lg text-gray-600">
@@ -50,7 +50,7 @@ export default function Initiatives() {
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
-          <h2 className="text-2xl font-semibold text-orange-600 mb-4">
+          <h2 className="text-2xl font-semibold text-blue-800 mb-4">
             Research and Development (R&D) Collaboration Hub
           </h2>
           <p className="text-lg text-gray-600">
@@ -64,7 +64,7 @@ export default function Initiatives() {
       <div className="mt-12">
         <a
           href="/contact"
-          className="bg-orange-600 text-white py-3 px-8 rounded-lg text-lg font-semibold transition-transform transform hover:scale-105 hover:bg-orange-700 duration-300 ease-in-out"
+          className="bg-white text-blue-800 py-3 px-8 rounded-lg text-lg font-semibold transition-transform transform hover:scale-105 hover:bg-blue-800 hover:text-white duration-300 ease-in-out"
         >
           Join Our Initiatives
         </a>
