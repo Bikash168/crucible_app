@@ -61,7 +61,7 @@ const startups = [
   return (
     <section className="py-16 bg-white text-gray-800 px-6">
       <h2 className="text-3xl font-bold text-blue-800 mb-12 text-center">
-        STARTUP <span className="text-blue-800">SPOTLIGHT</span>
+        Startup <span className="text-blue-800">Spotlight</span>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
         {startups.map((startup, index) => (
