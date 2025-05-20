@@ -4,55 +4,55 @@ const startups = [
     {
       name: 'BIAI',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'BIAI is a technology company that builds AI-based solutions for businesses. It helps companies improve their processes with smart, industry-focused tools.',
       logo: '/logos/BIAI.png',
     },
     {
       name: 'PHAYUR',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Phayur is a wellness startup that creates Ayurvedic health products. It combines traditional knowledge with modern research for better healthcare.',
       logo: '/logos/PHAYUR.png',
     },
     {
       name: 'WWS ENERGY',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'WWS Energy focuses on renewable and clean energy solutions. The company aims to provide affordable, eco-friendly power for a better future.',
       logo: '/logos/WWS_Energy.png',
     },
     {
       name: 'QUICKR MATHCODES',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Quickr MathCodes is an edtech startup that teaches math through coding. It helps students develop logical thinking in a fun and interactive way.',
       logo: '/logos/Quicker_Math_coders.png',
     },
     {
       name: 'GENY JOBDESK',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'GenY JobDesk is a career platform that connects young job seekers with companies. It offers smart tools for better hiring and career growth.',
       logo: '/logos/GENY_Jobdek.png',
     },
     {
       name: 'EVOLVE CODELINK',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Evolve Codelink provides training in coding and software development. It helps students and beginners prepare for jobs in the tech industry.',
       logo: '/logos/EVOLVE_.png',
     },
     {
       name: 'CRUCIBLE FINTECH',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Crucible Fintech is a financial technology startup offering digital tools. It supports users with simple and secure ways to manage money.',
       logo: '/logos/Crucibel_Fintech.png',
     },
     {
       name: 'DECARB CLIMATE RESEARCH',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Decarb Climate Research works on climate change and sustainability. The startup focuses on research and solutions to lower carbon emissions.',
       logo: '/logos/Decarb.png',
     },
     {
       name: 'SKILLEM SERVICES',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Skillem Services is a skill development company for youth. It offers training programs that improve job readiness and career opportunities.',
       logo: '/logos/Skillem.png',
     },
   ];
