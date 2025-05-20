@@ -8,7 +8,7 @@ export default function About() {
       <main className="min-h-screen bg-white px-4 py-12 sm:px-6 lg:px-16 text-center">
         {/* Hero Section */}
         <div className="relative w-full h-[300px] md:h-[400px] mb-12 rounded-xl overflow-hidden shadow-xl group">
-          <div className="absolute inset-0 bg-gradient-to-b from-red-500 to-orange-500 bg-opacity-60 flex items-center justify-center">
+          <div className="absolute inset-0 bg-gradient-to-b from-white to-blue-800 bg-opacity-60 flex items-center justify-center">
             <h1 className="text-white text-3xl md:text-5xl font-bold drop-shadow-lg animate-fadeIn">
               About Crucible Innovation Forum
             </h1>
@@ -33,11 +33,11 @@ export default function About() {
         {/* Introduction */}
         <section className="max-w-4xl mx-auto text-gray-700">
           <p className="text-lg md:text-xl mb-8">
-            <span className="font-semibold text-orange-600">Crucible Innovation Forum</span> is the official innovation and incubation centre of <strong>Trident Group of Institutions, Bhubaneswar</strong>. Established in 2023, it acts as a launchpad for creative minds to turn ideas into impactful ventures with mentorship, resources, and infrastructure.
+            <span className="font-semibold text-blue-800">Crucible Innovation Forum</span> is the official innovation and incubation centre of <strong>Trident Group of Institutions, Bhubaneswar</strong>. Established in 2023, it acts as a launchpad for creative minds to turn ideas into impactful ventures with mentorship, resources, and infrastructure.
           </p>
 
           {/* Key Initiatives */}
-          <h2 className="text-2xl md:text-3xl font-semibold text-orange-600 mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-blue-800 mb-4">
             Key Initiatives
           </h2>
           <ul className="list-disc list-inside text-left text-lg text-gray-600 mb-10 px-4 sm:px-10">
@@ -50,7 +50,7 @@ export default function About() {
 
           {/* Image */}
           <div className="my-12 px-4">
-            <div className="max-w-xl mx-auto overflow-hidden rounded-lg shadow-lg border-4 border-orange-500 hover:scale-105 transition-all duration-300 ease-in-out">
+            <div className="max-w-xl mx-auto overflow-hidden rounded-lg shadow-lg border-4 border-blue-500 hover:scale-105 transition-all duration-300 ease-in-out">
               <Image
                 src="/images/CrucibleNew.png" // replace with your actual static file name
                 alt="Test Crucible Image"
@@ -63,7 +63,7 @@ export default function About() {
           </div>
 
           {/* Mission */}
-          <h2 className="text-2xl md:text-3xl font-semibold text-orange-600 mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-blue-800 mb-4">
             Our Mission
           </h2>
           <p className="text-lg text-gray-600 mb-10">
@@ -71,7 +71,7 @@ export default function About() {
           </p>
 
           {/* Vision */}
-          <h2 className="text-2xl md:text-3xl font-semibold text-orange-600 mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-blue-800 mb-4">
             Our Vision
           </h2>
           <p className="text-lg text-gray-600 mb-10">
@@ -79,7 +79,7 @@ export default function About() {
           </p>
 
           {/* What We Offer */}
-          <h2 className="text-2xl md:text-3xl font-semibold text-orange-600 mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-blue-800 mb-4">
             What We Offer
           </h2>
           <ul className="list-disc list-inside text-left text-lg text-gray-600 px-4 sm:px-10 mb-12">

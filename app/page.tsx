@@ -14,40 +14,39 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-white to-gray-100 text-black">
       {/* Hero Carousel */}
       <Carousel
-  autoPlay
-  interval={4000}
-  infiniteLoop
-  showThumbs={false}
-  showStatus={false}
-  showArrows={false}
-  swipeable
-  emulateTouch
-  className="w-full h-full"
-  renderIndicator={(onClickHandler, isSelected, index) => (
-    <button
-      className={`${
-        isSelected ? "bg-blue-900" : "bg-gray-300"
-      } w-3 h-3 rounded-full mx-1`}
-      onClick={onClickHandler}
-      aria-label={`Slide ${index + 1}`}
-    ></button>
-  )}
->
-  {["innovation1.jpg", "innovation2.jpg", "innovation3.jpg"].map((img, i) => (
-    <div
-      key={i}
-      className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[85vh]"
-    >
-      <Image
-        src={`/images/${img}`}
-        alt={`Slide ${i + 1}`}
-        fill
-        className="object-cover"
-        priority={i === 0}
-      />
-    </div>
-  ))}
-</Carousel>
+        autoPlay
+        interval={4000}
+        infiniteLoop
+        showThumbs={false}
+        showStatus={false}
+        showArrows={false}
+        swipeable
+        emulateTouch
+        className="w-full h-full"
+        renderIndicator={(onClickHandler, isSelected, index) => (
+          <button
+            className={`${isSelected ? "bg-blue-900" : "bg-gray-300"
+              } w-3 h-3 rounded-full mx-1`}
+            onClick={onClickHandler}
+            aria-label={`Slide ${index + 1}`}
+          ></button>
+        )}
+      >
+        {["innovation1.jpg", "innovation2.jpg", "innovation3.jpg"].map((img, i) => (
+          <div
+            key={i}
+            className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[85vh]"
+          >
+            <Image
+              src={`/images/${img}`}
+              alt={`Slide ${i + 1}`}
+              fill
+              className="object-cover"
+              priority={i === 0}
+            />
+          </div>
+        ))}
+      </Carousel>
 
 
       {/* Hero Callout */}
@@ -93,7 +92,7 @@ export default function Home() {
 
         {/* Vision & Mission */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {[ 
+          {[
             {
               title: "Vision",
               image: "/images/vision.jpg",
@@ -154,7 +153,7 @@ export default function Home() {
             OUR IMPACT
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {[ 
+            {[
               { label: "Startups Incubated", value: 50 },
               { label: "Mentors & Experts", value: 30 },
               { label: "Job Created", value: 100 },
@@ -175,7 +174,7 @@ export default function Home() {
             OUR PARTNERS
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center">
-            {[ 
+            {[
               "/partners/partner1.png",
               "/partners/partner2.png",
               "/partners/partner3.png",
@@ -199,7 +198,7 @@ export default function Home() {
             FOCUS AREAS
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            {[ 
+            {[
               {
                 icon: "🚀",
                 title: "Startup Acceleration",
