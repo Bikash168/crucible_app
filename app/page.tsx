@@ -161,7 +161,7 @@ export default function Home() {
         </div>
 
         <SectorAgnostic />
- <WhyChooseUs />
+        <WhyChooseUs />
         {/* Stats */}
         <div className="bg-white shadow-xl rounded-2xl p-10 text-center">
           <h3 className="text-3xl font-bold text-blue-800 mb-8">
