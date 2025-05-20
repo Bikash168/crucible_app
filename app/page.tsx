@@ -5,6 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectorAgnostic from "@/components/SectorAgnostic";
 import StartupSpotlight from "@/components/StartupSpotlight";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import Link from "next/link";
 import CountUp from "react-countup";
 
@@ -160,7 +161,7 @@ export default function Home() {
         </div>
 
         <SectorAgnostic />
-
+ <WhyChooseUs />
         {/* Stats */}
         <div className="bg-white shadow-xl rounded-2xl p-10 text-center">
           <h3 className="text-3xl font-bold text-blue-800 mb-8">
