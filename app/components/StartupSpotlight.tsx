@@ -57,28 +57,32 @@ const startups = [
     },
   ];
   
-  export default function StartupSpotlight() {
-    return (
-      <section className="py-16 bg-white text-gray-800 px-6">
-        <h2 className="text-3xl font-bold text-blue-800 mb-10 text-center">
-          STARTUP <span className="text-blue-800">SPOTLIGHT</span>
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {startups.map((startup, index) => (
-            <div key={index} className="flex items-start gap-4">
-              <img
-                src={startup.logo}
-                alt={startup.name}
-                className="w-30 h-30 object-cover aspect-square rounded bg-white p-1 border flex-shrink-0"
-              />
-              <div>
-                <h3 className="font-semibold text-lg">{startup.name}</h3>
-                <p className="text-sm text-gray-600">{startup.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-    );
-  }
-  
+ export default function StartupSpotlight() {
+  return (
+    <section className="py-16 bg-white text-gray-800 px-6">
+      <h2 className="text-3xl font-bold text-blue-800 mb-12 text-center">
+        STARTUP <span className="text-blue-800">SPOTLIGHT</span>
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+        {startups.map((startup, index) => (
+          <div
+            key={index}
+            className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-5 flex flex-col items-center text-center"
+          >
+            <img
+              src={startup.logo}
+              alt={startup.name}
+              className="w-42 h-42 object-contain mb-4"
+            />
+            <h3 className="font-semibold text-xl text-blue-800 mb-2">
+              {startup.name}
+            </h3>
+            <p className="text-sm text-gray-600 leading-relaxed">
+              {startup.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
