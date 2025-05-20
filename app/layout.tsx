@@ -6,6 +6,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Crucible",
   description: "Crucible Innovation Forum",
+  other: {
+    "google-site-verification": "_saz9b-4f-4ifeydh4BWiZA7xoD4Na0EJ8YoNTDta-A"
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
