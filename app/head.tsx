@@ -5,6 +5,7 @@ export default function Head() {
       <title>Crucible - Empowering Innovation Through Sustainability</title>
       <meta name="description" content="Crucible is an innovative platform driving sustainable impact through technology and collaboration." />
       <meta name="keywords" content="Crucible, sustainability, innovation, ESG, technology, climate action" />
+      <meta name="google-site-verification" content="_saz9b-4f-4ifeydh4BWiZA7xoD4Na0EJ8YoNTDta-A" />
       <meta name="author" content="Crucible Team" />
       <meta name="theme-color" content="#1e3a8a" />
       <meta property="og:type" content="website" />
