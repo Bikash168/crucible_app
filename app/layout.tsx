@@ -35,6 +35,7 @@ export const metadata: Metadata = {
     "google-site-verification": "_saz9b-4f-4ifeydh4BWiZA7xoD4Na0EJ8YoNTDta-A"
   }
 };
+import Head from "next/head";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
